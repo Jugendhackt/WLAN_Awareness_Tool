@@ -2,7 +2,16 @@
 <HEAD>
 	<TITLE>Im Wlan anmelden (aber nicht beabsichtig)</TITLE>
 <style type="text/css">
-	.e {letter-spacing: 0.25 em;
+	.e {letter-spacing: 2.5em;
+			animation: blink-animation 1s steps(5, start) infinite;
+			color: red;
+
+		}
+		@keyframes blink-animation {
+			to{
+				visibility: hidden;
+			}
+
 		}
 </style>
 </HEAD>
@@ -10,7 +19,7 @@
 	<h1> Herzlich Willkommen im W-LAN Name!</h1>
 	<h2> ... oder doch nicht?</h2>
 	<h1>Sie sind hier in einem fake W-LAN-Netzwerk gelandet.</h1>
-	<h1 class="e"><blink>style="text-decoration: blink;"SCHOCK</blink></h1>
+	<h1 class="e">SCHOCK</h1>
 	<h2>Warum?</h2>
 	<p>Weil sich Ihr Smartphone/Laptop/internetf&auml;higes Ger&auml;t automatisch mit einem W-LAN-Netz verbindet ohne vorher zu &uuml;berpr&uuml;fen, ob es das richtige bzw. ein sicheres Netz ist.</p>
 	<h2>Wo ist dabei das Problem?</h2>
